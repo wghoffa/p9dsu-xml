@@ -19565,7 +19565,7 @@
 		<default>0x00F0</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_SET</id>
+		<id>PCIE_LANE_GROUP</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -19866,7 +19866,7 @@
 		<default>0x000F</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_SET</id>
+		<id>PCIE_LANE_GROUP</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
