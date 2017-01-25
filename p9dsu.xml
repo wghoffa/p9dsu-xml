@@ -3214,6 +3214,51 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/fsi-cm-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/fsim-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/fsim-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/i2c-master-dimm0123</id>
 	<property>
 	<id>DIRECTION</id>
@@ -3241,6 +3286,13 @@
 	<id>DIRECTION</id>
 	<value></value>
 	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
@@ -3470,6 +3522,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/fsi-slave-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/i2c-master-dimm0123</id>
 	<property>
 	<id>DIRECTION</id>
@@ -3623,6 +3686,32 @@
 	<value></value>
 	</property>
 </globalSetting>
+<globalSetting>
+	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/xbus1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys/node-0/P9DSU-0/vpd_assoc_child</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
 </globalSettings>
 <attributeGroups>
 <attributeGroup>
@@ -3697,7 +3786,7 @@
 	</attribute>
 	<attribute>
 		<id>ALL_MCS_IN_INTERLEAVING_GROUP</id>
-		<default></default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>APSS_GPIO_PORT_MODES</id>
@@ -3713,7 +3802,7 @@
 	</attribute>
 	<attribute>
 		<id>ASYNC_NEST_FREQ_MHZ</id>
-		<default></default>
+		<default>2000</default>
 	</attribute>
 	<attribute>
 		<id>ATTN_CHK_ALL_PROCS</id>
@@ -3725,7 +3814,7 @@
 	</attribute>
 	<attribute>
 		<id>AVSBUS_FREQUENCY</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>A_EREPAIR_THRESHOLD_FIELD</id>
@@ -3737,23 +3826,23 @@
 	</attribute>
 	<attribute>
 		<id>BMC_FRU_ID</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>BOOT_FLAGS</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>BOOT_FREQ_MHZ</id>
-		<default></default>
+		<default>2400</default>
 	</attribute>
 	<attribute>
 		<id>BRAZOS_RX_FIFO_OVERRIDE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CDM_POLICIES</id>
-		<default></default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>CEC_IPL_TYPE</id>
@@ -3776,7 +3865,7 @@
 	</attribute>
 	<attribute>
 		<id>CP_REFCLOCK_RCVR_TERM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
@@ -3784,11 +3873,11 @@
 	</attribute>
 	<attribute>
 		<id>DISABLE_HBBL_VECTORS</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DMI_DFE_OVERRIDE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DMI_EREPAIR_THRESHOLD_FIELD</id>
@@ -3800,23 +3889,23 @@
 	</attribute>
 	<attribute>
 		<id>DO_ABUS_DECONFIG</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>DPLL_DROOP_PROTECT_ENABLE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DPLL_DYNAMIC_FMAX_ENABLE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DPLL_DYNAMIC_FMIN_ENABLE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DPLL_VDM_RESPONSE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DUMMY_RW</id>
@@ -3824,11 +3913,11 @@
 	</attribute>
 	<attribute>
 		<id>EFFECTIVE_EC</id>
-		<default></default>
+		<default>0x10</default>
 	</attribute>
 	<attribute>
 		<id>ENABLED_THREADS</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>EXECUTION_PLATFORM</id>
@@ -3844,31 +3933,31 @@
 	</attribute>
 	<attribute>
 		<id>FABRIC_TO_PHYSICAL_NODE_MAP</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
-		<default></default>
+		<default>unknown</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_POS</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FIELD_TH_P8EX_L2_COL_REPAIRS</id>
-		<default></default>
+		<default>7</default>
 	</attribute>
 	<attribute>
 		<id>FIELD_TH_P8EX_L2_LINE_DELETES</id>
-		<default></default>
+		<default>6</default>
 	</attribute>
 	<attribute>
 		<id>FIELD_TH_P8EX_L3_COL_REPAIRS</id>
-		<default></default>
+		<default>7</default>
 	</attribute>
 	<attribute>
 		<id>FIELD_TH_P8EX_L3_LINE_DELETES</id>
-		<default></default>
+		<default>6</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_A_MHZ</id>
@@ -3876,7 +3965,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_CORE_CEILING_MHZ</id>
-		<default></default>
+		<default>4800</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_CORE_MAX</id>
@@ -3896,7 +3985,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_PB_MHZ</id>
-		<default></default>
+		<default>1866</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_PCIE_MHZ</id>
@@ -3916,19 +4005,19 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_X_MHZ</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FRU_ID</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FSP_BAR_SIZE</id>
-		<default></default>
+		<default>0x0000000100000000</default>
 	</attribute>
 	<attribute>
 		<id>FUSED_CORE_OPTION</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>HB_EXISTING_IMAGE</id>
@@ -3936,7 +4025,7 @@
 	</attribute>
 	<attribute>
 		<id>HB_HRMOR_NODAL_BASE</id>
-		<default></default>
+		<default>0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>HB_MUTEX_TEST_LOCK</id>
@@ -3944,7 +4033,7 @@
 	</attribute>
 	<attribute>
 		<id>HB_RSV_MEM_SIZE_MB</id>
-		<default></default>
+		<default>256</default>
 	</attribute>
 	<attribute>
 		<id>HB_SETTINGS</id>
@@ -3957,15 +4046,15 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_HBRT_NUM_SECTIONS</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_HBRT_SECTION_SIZE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>HIDDEN_ERRLOGS_ENABLE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>HOSTSVC_PLID</id>
@@ -4004,11 +4093,11 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>HYPERVISOR_IPL_DESTINATION</id>
@@ -4028,7 +4117,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_REFCLOCK_RCVR_TERM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>IPL_ATTRIBUTES</id>
@@ -4057,15 +4146,15 @@
 	</attribute>
 	<attribute>
 		<id>ISTEP_MODE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>ISTEP_PAUSE_CONFIG</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>ISTEP_PAUSE_ENABLE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>IS_MPIPL_HB</id>
@@ -4089,7 +4178,7 @@
 	</attribute>
 	<attribute>
 		<id>IVRM_STRENGTH_LOOKUP</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>IVRM_VIN_MAX_MV</id>
@@ -4097,7 +4186,7 @@
 	</attribute>
 	<attribute>
 		<id>IVRM_VIN_MULTIPLIER</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>LED_ON_DEFAULT_GPIO_VALUE</id>
@@ -4121,7 +4210,7 @@
 	</attribute>
 	<attribute>
 		<id>MAX_ALLOWED_DIMM_FREQ</id>
-		<default></default>
+		<default>2400</default>
 	</attribute>
 	<attribute>
 		<id>MAX_CHIPLETS_PER_PROC</id>
@@ -4149,7 +4238,7 @@
 	</attribute>
 	<attribute>
 		<id>MAX_MCS_PER_SYSTEM</id>
-		<default></default>
+		<default>8</default>
 	</attribute>
 	<attribute>
 		<id>MAX_PROC_CHIPS_PER_NODE</id>
@@ -4161,19 +4250,19 @@
 	</attribute>
 	<attribute>
 		<id>MEM_MIRROR_PLACEMENT_POLICY</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MFG_TRACE_ENABLE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MIN_FREQ_MHZ</id>
-		<default></default>
+		<default>4800</default>
 	</attribute>
 	<attribute>
 		<id>MIRROR_BASE_ADDRESS</id>
-		<default></default>
+		<default>0x0000800000000000</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_ABUS_MIN_EYE_HEIGHT</id>
@@ -4193,55 +4282,55 @@
 	</attribute>
 	<attribute>
 		<id>MNFG_FLAGS</id>
-		<default></default>
+		<default>0x0000000000000000</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_TH_CEN_L4_CACHE_CES</id>
-		<default></default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_TH_CEN_MBA_IPL_SOFT_CE_TH_ALGO</id>
-		<default></default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_TH_CEN_MBA_RT_RCE_PER_RANK</id>
-		<default></default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_TH_CEN_MBA_RT_SOFT_CE_TH_ALGO</id>
-		<default></default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_TH_P8EX_L2_CACHE_CES</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_TH_P8EX_L2_COL_REPAIRS</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_TH_P8EX_L2_DIR_CES</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_TH_P8EX_L2_LINE_DELETES</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_TH_P8EX_L3_CACHE_CES</id>
-		<default></default>
+		<default>3</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_TH_P8EX_L3_COL_REPAIRS</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_TH_P8EX_L3_DIR_CES</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_TH_P8EX_L3_LINE_DELETES</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_XBUS_MIN_EYE_WIDTH</id>
@@ -4261,19 +4350,19 @@
 	</attribute>
 	<attribute>
 		<id>MRW_DDR3_VDDR_MAX_LIMIT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MRW_DDR3_VDDR_MAX_LIMIT_POST_DRAM_INIT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MRW_DDR4_VDDR_MAX_LIMIT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MRW_DDR4_VDDR_MAX_LIMIT_POST_DRAM_INIT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MRW_DRAMINIT_RESET_DISABLE</id>
@@ -4305,7 +4394,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_NEST_CAPABLE_FREQUENCIES_SYS</id>
-		<default></default>
+		<default>UNSUPPORTED_FREQ</default>
 	</attribute>
 	<attribute>
 		<id>MRW_SAFEMODE_MEM_THROTTLE_NUMERATOR_PER_CHIP</id>
@@ -4333,35 +4422,35 @@
 	</attribute>
 	<attribute>
 		<id>MSS_AVDD_PROGRAM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_CAL_ABORT_ON_ERROR</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_CLEANER_ENABLE</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>MSS_DRAMINIT_RESET_DISABLE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_INTERLEAVE_ENABLE</id>
-		<default></default>
+		<default>0xAF</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MBA_ADDR_INTERLEAVE_BIT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MBA_CACHELINE_INTERLEAVE_MODE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MEM_PORT_POS_OF_FAIL_THROTTLE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_AVDD_OFFSET_DISABLE</id>
@@ -4373,15 +4462,15 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_DIMM_POWER_CURVE_PERCENT_UPLIFT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_DIMM_POWER_CURVE_PERCENT_UPLIFT_IDLE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_DRAM_2N_MODE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_FINE_REFRESH_MODE</id>
@@ -4389,23 +4478,23 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_IDLE_POWER_CONTROL_REQUESTED</id>
-		<default></default>
+		<default>OFF</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MAX_DRAM_DATABUS_UTIL</id>
-		<default></default>
+		<default>0x00002328</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MAX_NUMBER_DIMMS_POSSIBLE_PER_VMEM_REGULATOR</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MCS_PREFETCH_RETRY_THRESHOLD</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MEM_M_DRAM_CLOCKS</id>
-		<default></default>
+		<default>0x00000200</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OFFSET_GPO</id>
@@ -4429,19 +4518,19 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_POWER_CONTROL_REQUESTED</id>
-		<default></default>
+		<default>OFF</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_PREFETCH_ENABLE</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_PWR_INTERCEPT</id>
-		<default></default>
+		<default>0xffffe00002CC03AE</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_PWR_SLOPE</id>
-		<default></default>
+		<default>0xffffe00003FD0546</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_REFRESH_RATE_REQUEST</id>
@@ -4449,7 +4538,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_RESET_DELAY_BEFORE_CAL</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_SAFEMODE_MEM_THROTTLED_N_COMMANDS_PER_PORT</id>
@@ -4461,15 +4550,15 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_SUPPORTED_FREQ</id>
-		<default></default>
+		<default>0x74A</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_TEMP_REFRESH_RANGE</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_THERMAL_MEMORY_POWER_LIMIT</id>
-		<default></default>
+		<default>0xffffe000000006a4</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_TSYS_ADR</id>
@@ -4493,7 +4582,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_VMEM_REGULATOR_POWER_LIMIT_PER_DIMM_ADJ_ENABLE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_VPP_OFFSET_DISABLE</id>
@@ -4501,92 +4590,92 @@
 	</attribute>
 	<attribute>
 		<id>MSS_PREFETCH_ENABLE</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VCCD_OVERRIDE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VCS_PROGRAM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VDDR_OVERIDE_SPD</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VDDR_PROGRAM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VDD_PROGRAM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VMEM_REGULATOR_MAX_DIMM_COUNT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VOLT_DDR3_VDDR_INTERCEPT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VOLT_DDR3_VDDR_INTERCEPT_POST_DRAM_INIT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VOLT_DDR3_VDDR_SLOPE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VOLT_DDR3_VDDR_SLOPE_POST_DRAM_INIT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VOLT_DDR4_VDDR_INTERCEPT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VOLT_DDR4_VDDR_INTERCEPT_POST_DRAM_INIT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VOLT_DDR4_VDDR_SLOPE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VOLT_DDR4_VDDR_SLOPE_POST_DRAM_INIT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VOLT_VPP_INTERCEPT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VOLT_VPP_SLOPE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VPP_PROGRAM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MULTI_SCOM_BUFFER_MAX_SIZE</id>
-		<default></default>
+		<default>0x0000000000001000</default>
 	</attribute>
 	<attribute>
 		<id>NEST_PLL_BUCKET</id>
-		<default></default>
+		<default>0x05</default>
 	</attribute>
 	<attribute>
 		<id>NOMINAL_FREQ_MHZ</id>
-		<default></default>
+		<default>4800</default>
 	</attribute>
 	<attribute>
 		<id>NUMERIC_POD_TYPE_TEST</id>
 		<default>
-				<field><id>fsiPath</id><value></value></field>
+				<field><id>fsiPath</id><value>physical:sys-0</value></field>
 				<field><id>className</id><value></value></field>
 				<field><id>uint8</id><value></value></field>
 				<field><id>uint16</id><value></value></field>
@@ -4616,7 +4705,7 @@
 	</attribute>
 	<attribute>
 		<id>OPAL_MODEL</id>
-		<default></default>
+		<default>smc,p9dsu</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_ERROR_TEMP_DEG_C</id>
@@ -4688,7 +4777,7 @@
 	</attribute>
 	<attribute>
 		<id>OPT_MEMMAP_GROUP_POLICY</id>
-		<default></default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>OP_TRACE_LITE</id>
@@ -4696,7 +4785,7 @@
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>OS_IPL_MODE</id>
@@ -4704,19 +4793,19 @@
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_BASE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_ENTRY</id>
-		<default></default>
+		<default>0x10</default>
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_IN_MIRROR_MEM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_KIND</id>
-		<default></default>
+		<default>SAPPHIRE</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_DEFAULT_HDDW_SLOT_COUNT</id>
@@ -4732,23 +4821,23 @@
 	</attribute>
 	<attribute>
 		<id>PCI_REFCLOCK_RCVR_TERM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PFET_POWERDOWN_DELAY_NS</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PFET_POWERUP_DELAY_NS</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PFET_VCS_VOFF_SEL</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PFET_VDD_VOFF_SEL</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHYP_SYSTEM_TYPE</id>
@@ -4760,27 +4849,27 @@
 	</attribute>
 	<attribute>
 		<id>PIBMEM_REPAIR0</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PIBMEM_REPAIR1</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PIBMEM_REPAIR2</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PIB_I2C_NEST_PLL</id>
-		<default></default>
+		<default>0x026</default>
 	</attribute>
 	<attribute>
 		<id>PIB_I2C_REFCLOCK</id>
-		<default></default>
+		<default>0x4</default>
 	</attribute>
 	<attribute>
 		<id>PLCK_IPL_ATTR_OVERRIDES_EXIST</id>
-		<default></default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>PM_EXTERNAL_VRM_STEPDELAY_RANGE</id>
@@ -4845,39 +4934,39 @@
 	</attribute>
 	<attribute>
 		<id>PROC_EPS_GB_PERCENTAGE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_EPS_READ_CYCLES_T0</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_EPS_READ_CYCLES_T1</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_EPS_READ_CYCLES_T2</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_EPS_TABLE_TYPE</id>
-		<default></default>
+		<default>EPS_TYPE_LE</default>
 	</attribute>
 	<attribute>
 		<id>PROC_EPS_WRITE_CYCLES_T1</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_EPS_WRITE_CYCLES_T2</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_ADDR_BAR_MODE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_ASYNC_SAFE_MODE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_A_BUS_WIDTH</id>
@@ -4885,75 +4974,75 @@
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_CAPI_MODE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_CCSM_MODE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_CORE_CEILING_RATIO</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_CORE_FLOOR_RATIO</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_PUMP_MODE</id>
-		<default></default>
+		<default>MODE2</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_SMP_OPTICS_MODE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_X_BUS_WIDTH</id>
-		<default></default>
+		<default>4_BYTE</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FSP_BAR_BASE_ADDR_OFFSET</id>
-		<default></default>
+		<default>0x0000030100000000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FSP_BAR_SIZE</id>
-		<default></default>
+		<default>0xFFFFFC00FFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FSP_MMIO_MASK_SIZE</id>
-		<default></default>
+		<default>0x0010000000000000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_INT_CQ_IC_BAR_BASE_ADDR_OFFSET</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_INT_CQ_IC_BAR_PAGE_SIZE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_INT_CQ_PC_BAR_BASE_ADDR_OFFSET</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_INT_CQ_PC_BAR_BASE_ADDR_OFFSET_MASK</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_INT_CQ_TM1_BAR_BASE_ADDR_OFFSET</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_INT_CQ_TM1_BAR_PAGE_SIZE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_INT_CQ_VC_BAR_BASE_ADDR_OFFSET</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_INT_CQ_VC_BAR_BASE_ADDR_OFFSET_MASK</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_LPC_BAR_BASE_ADDR_OFFSET</id>
@@ -4961,43 +5050,43 @@
 	</attribute>
 	<attribute>
 		<id>PROC_NPU_MMIO_BAR_BASE_ADDR_OFFSET</id>
-		<default></default>
+		<default>0x0000030200000000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_NPU_PHY0_BAR_BASE_ADDR_OFFSET</id>
-		<default></default>
+		<default>0x0000030201200000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_NPU_PHY1_BAR_BASE_ADDR_OFFSET</id>
-		<default></default>
+		<default>0x0000030201400000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_NX_RNG_BAR_BASE_ADDR_OFFSET</id>
-		<default></default>
+		<default>0x00000302031D0000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_BAR_SIZE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_MMIO_BAR0_BASE_ADDR_OFFSET</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_MMIO_BAR1_BASE_ADDR_OFFSET</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_REGISTER_BAR_BASE_ADDR_OFFSET</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PSI_BRIDGE_BAR_BASE_ADDR_OFFSET</id>
-		<default></default>
+		<default>0x0000030203000000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_REFCLOCK_RCVR_TERM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_XSCOM_BAR_BASE_ADDR_OFFSET</id>
@@ -5009,19 +5098,19 @@
 	</attribute>
 	<attribute>
 		<id>RAW_MTM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RECONFIGURE_LOOP</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RECONFIG_LOOP_TESTS</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RECONFIG_LOOP_TESTS_ENABLE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>REDUNDANT_CLOCKS</id>
@@ -5033,7 +5122,7 @@
 	</attribute>
 	<attribute>
 		<id>REQUIRED_SYNCH_MODE</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -5041,67 +5130,67 @@
 	</attribute>
 	<attribute>
 		<id>RISK_LEVEL</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RUN_MAX_MEM_PATTERNS</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SBE_IMAGE_MINIMUM_VALID_ECS</id>
-		<default></default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>SBE_SYS_CONFIG</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>SCRATCH_UINT32_1</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SCRATCH_UINT32_2</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SCRATCH_UINT32_ARRAY_1</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SCRATCH_UINT32_ARRAY_2</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SCRATCH_UINT64_1</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SCRATCH_UINT64_2</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SCRATCH_UINT64_ARRAY_1</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SCRATCH_UINT64_ARRAY_2</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SCRATCH_UINT8_1</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SCRATCH_UINT8_2</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SCRATCH_UINT8_ARRAY_1</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SCRATCH_UINT8_ARRAY_2</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SECURITY_ENABLE</id>
@@ -5125,7 +5214,7 @@
 	</attribute>
 	<attribute>
 		<id>SPIPSS_FREQUENCY</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SP_FUNCTIONS</id>
@@ -5141,27 +5230,27 @@
 	</attribute>
 	<attribute>
 		<id>STOP11_DISABLE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>STOP4_DISABLE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>STOP8_DISABLE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SUPPORTED_STOP_STATES</id>
-		<default></default>
+		<default>0x80000000</default>
 	</attribute>
 	<attribute>
 		<id>SUPPORTS_DYNAMIC_MEM_VOLT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SYNC_BETWEEN_STEPS</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_BRAND_NAME</id>
@@ -5169,11 +5258,11 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_FAMILY</id>
-		<default></default>
+		<default>smc,openpower</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_IPL_PHASE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_IVRMS_ENABLED</id>
@@ -5185,7 +5274,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_NAME</id>
-		<default></default>
+		<default>P9DSU</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_RESCLK_ENABLE</id>
@@ -5201,19 +5290,19 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_TYPE</id>
-		<default></default>
+		<default>ibm,miscopenpower</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_ENABLED</id>
-		<default></default>
+		<default>OFF</default>
 	</attribute>
 	<attribute>
 		<id>SYS_FORCE_ALL_CORES</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TEST_MAX_STRING</id>
-		<default></default>
+		<default>abc</default>
 	</attribute>
 	<attribute>
 		<id>TEST_MIN_STRING</id>
@@ -5221,7 +5310,7 @@
 	</attribute>
 	<attribute>
 		<id>TEST_NEGATIVE_FCN</id>
-		<default></default>
+		<default>-6</default>
 	</attribute>
 	<attribute>
 		<id>TEST_NO_DEFAULT_STRING</id>
@@ -5229,15 +5318,15 @@
 	</attribute>
 	<attribute>
 		<id>TEST_NULL_STRING</id>
-		<default></default>
+		<default>NULL</default>
 	</attribute>
 	<attribute>
 		<id>THREAD_COUNT</id>
-		<default></default>
+		<default>0x4</default>
 	</attribute>
 	<attribute>
 		<id>TPM_REQUIRED</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -5249,35 +5338,35 @@
 	</attribute>
 	<attribute>
 		<id>VDM_DROOP_EXTREME_OVERRIDE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VDM_DROOP_LARGE_OVERRIDE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VDM_DROOP_SMALL_OVERRIDE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VDM_ENABLE</id>
-		<default></default>
+		<default>OFF</default>
 	</attribute>
 	<attribute>
 		<id>VDM_FMAX_OVERRIDE_KHZ</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VDM_FMIN_OVERRIDE_KHZ</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VDM_OVERVOLT_OVERRIDE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VDM_VID_COMPARE_OVERRIDE_MV</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VLAN_SWITCHES</id>
@@ -5289,7 +5378,7 @@
 	</attribute>
 	<attribute>
 		<id>XSCOM_BASE_ADDRESS</id>
-		<default></default>
+		<default>0,0x000603FC00000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>X_EREPAIR_THRESHOLD_FIELD</id>
@@ -5339,15 +5428,15 @@
 	<attribute>
 		<id>EEPROM_VPD_PRIMARY_INFO</id>
 		<default>
-				<field><id>i2cMasterPath</id><value></value></field>
-				<field><id>port</id><value></value></field>
-				<field><id>devAddr</id><value></value></field>
-				<field><id>engine</id><value></value></field>
-				<field><id>byteAddrOffset</id><value></value></field>
-				<field><id>maxMemorySizeKB</id><value></value></field>
-				<field><id>chipCount</id><value></value></field>
-				<field><id>writePageSize</id><value></value></field>
-				<field><id>writeCycleTime</id><value></value></field>
+				<field><id>i2cMasterPath</id><value>physical:sys-0/node-0/proc-0</value></field>
+				<field><id>port</id><value>0</value></field>
+				<field><id>devAddr</id><value>0xA0</value></field>
+				<field><id>engine</id><value>2</value></field>
+				<field><id>byteAddrOffset</id><value>0x02</value></field>
+				<field><id>maxMemorySizeKB</id><value>0x40</value></field>
+				<field><id>chipCount</id><value>0x01</value></field>
+				<field><id>writePageSize</id><value>32</value></field>
+				<field><id>writeCycleTime</id><value>20</value></field>
 		</default>
 	</attribute>
 	<attribute>
@@ -5360,27 +5449,27 @@
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
-		<default></default>
+		<default>unknown</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_POS</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>FIELD_CORE_OVERRIDE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FRU_ID</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_HBRT_NUM_SECTIONS</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_HBRT_SECTION_SIZE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>HUID</id>
@@ -5399,7 +5488,7 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
@@ -5419,11 +5508,11 @@
 	</attribute>
 	<attribute>
 		<id>MRW_DDR3_VDDR_MAX_LIMIT_EFF_CONFIG</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MRW_DDR4_VDDR_MAX_LIMIT_EFF_CONFIG</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -5431,31 +5520,31 @@
 	</attribute>
 	<attribute>
 		<id>MSS_VOLT_DDR3_VDDR_INTERCEPT_EFF_CONFIG</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VOLT_DDR3_VDDR_SLOPE_EFF_CONFIG</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VOLT_DDR4_VDDR_INTERCEPT_EFF_CONFIG</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VOLT_DDR4_VDDR_SLOPE_EFF_CONFIG</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VOLT_VPP_INTERCEPT_EFF_CONFIG</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VOLT_VPP_SLOPE_EFF_CONFIG</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PART_NUMBER</id>
@@ -5508,7 +5597,7 @@
 	</attribute>
 	<attribute>
 		<id>VPD_REC_NUM</id>
-		<default></default>
+		<default>0xFFFF</default>
 	</attribute>
 	<attribute>
 		<id>VPD_SWITCHES</id>
@@ -5568,11 +5657,11 @@
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
-		<default></default>
+		<default>unknown</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_POS</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>HUID</id>
@@ -5591,11 +5680,11 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
@@ -5619,7 +5708,7 @@
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -5857,6 +5946,23 @@
 		<source_target>ddr_ch5:cs1</source_target>
 		<dest_path>dimmconn-15/dimm-0/</dest_path>
 		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/module-0/p9_proc_s/fsim-0 => proc_socket-1/module-0/p9_proc_s/fsi-slave-0</bus_id>
+		<bus_type>FSIM</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/module-0/p9_proc_s/</source_path>
+		<source_target>fsim-0</source_target>
+		<dest_path>proc_socket-1/module-0/p9_proc_s/</dest_path>
+		<dest_target>fsi-slave-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
