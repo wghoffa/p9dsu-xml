@@ -2304,6 +2304,264 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/PM8069-2</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/PM8069-2/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/USB-1</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/USB-1/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/bmc-0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/bmc-0/chip-bmc-ast2500.pin_L17_pcie</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-0/pciecard-0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-0/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-1/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-2/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-3/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-4/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-5/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-6</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-6/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-7/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec0/pec0_x16_config/phb0_x16/phb0_x16_pci</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb1_x8/phb1_x8_pci</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb2_x8/phb2_x8_pci</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/pec0/pec0_x16_config/phb0_x16/phb0_x16_pci</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb1_x8/phb1_x8_pci</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb2_x8/phb2_x8_pci</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/pec2/pec2_x8_x8_config/phb3_x8/phb3_x8_pci</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/pec2/pec2_x8_x8_config/phb4_x8/phb4_x8_pci</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys/node-0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3743,7 +4001,7 @@
 </appliedErratas>
 <targetInstances>
 <targetInstance>
-	<id>sys</id>
+	<id>sys-0</id>
 	<type>sys-sys-power9</type>
 	<is_root>true</is_root>
 	<instance_name>sys</instance_name>
@@ -5661,6 +5919,13 @@
 	<child_id>USB-1</child_id>
 	<child_id>PM8069-2</child_id>
 	<child_id>apss-0</child_id>
+	<child_id>pcieslot-1</child_id>
+	<child_id>pcieslot-2</child_id>
+	<child_id>pcieslot-3</child_id>
+	<child_id>pcieslot-4</child_id>
+	<child_id>pcieslot-5</child_id>
+	<child_id>pcieslot-6</child_id>
+	<child_id>pcieslot-7</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -6732,6 +6997,206 @@
 		<source_path>proc_socket-0/module-0/p9_proc_s/pec2/pec2_x8_x4_x4_config/phb5_x4/</source_path>
 		<source_target>phb5_x4_pci</source_target>
 		<dest_path>USB-1/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/module-0/p9_proc_s/pec0/pec0_x16_config/phb0_x16/phb0_x16_pci => pcieslot-0/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/module-0/p9_proc_s/pec0/pec0_x16_config/phb0_x16/</source_path>
+		<source_target>phb0_x16_pci</source_target>
+		<dest_path>pcieslot-0/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb1_x8/phb1_x8_pci => pcieslot-1/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb1_x8/</source_path>
+		<source_target>phb1_x8_pci</source_target>
+		<dest_path>pcieslot-1/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb2_x8/phb2_x8_pci => pcieslot-2/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb2_x8/</source_path>
+		<source_target>phb2_x8_pci</source_target>
+		<dest_path>pcieslot-2/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/module-0/p9_proc_s/pec0/pec0_x16_config/phb0_x16/phb0_x16_pci => pcieslot-3/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/module-0/p9_proc_s/pec0/pec0_x16_config/phb0_x16/</source_path>
+		<source_target>phb0_x16_pci</source_target>
+		<dest_path>pcieslot-3/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb1_x8/phb1_x8_pci => pcieslot-4/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb1_x8/</source_path>
+		<source_target>phb1_x8_pci</source_target>
+		<dest_path>pcieslot-4/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb2_x8/phb2_x8_pci => pcieslot-5/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb2_x8/</source_path>
+		<source_target>phb2_x8_pci</source_target>
+		<dest_path>pcieslot-5/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/module-0/p9_proc_s/pec2/pec2_x8_x8_config/phb3_x8/phb3_x8_pci => pcieslot-6/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/module-0/p9_proc_s/pec2/pec2_x8_x8_config/phb3_x8/</source_path>
+		<source_target>phb3_x8_pci</source_target>
+		<dest_path>pcieslot-6/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/module-0/p9_proc_s/pec2/pec2_x8_x8_config/phb4_x8/phb4_x8_pci => pcieslot-7/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/module-0/p9_proc_s/pec2/pec2_x8_x8_config/phb4_x8/</source_path>
+		<source_target>phb4_x8_pci</source_target>
+		<dest_path>pcieslot-7/pciecard-0/</dest_path>
 		<dest_target>pciep</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
@@ -46614,15 +47079,15 @@
 	</attribute>
 	<attribute>
 		<id>ALTFSI_MASTER_CHIP</id>
-		<default></default>
+		<default>physical:sys-0</default>
 	</attribute>
 	<attribute>
 		<id>ALTFSI_MASTER_PORT</id>
-		<default></default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_ID</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -46634,27 +47099,27 @@
 	</attribute>
 	<attribute>
 		<id>EC</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
-		<default></default>
+		<default>unknown</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_POS</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>FRU_ID</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FSI_MASTER_CHIP</id>
-		<default></default>
+		<default>physical:sys-0</default>
 	</attribute>
 	<attribute>
 		<id>FSI_MASTER_PORT</id>
-		<default></default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>FSI_MASTER_TYPE</id>
@@ -46669,7 +47134,7 @@
 	</attribute>
 	<attribute>
 		<id>FSI_SLAVE_CASCADE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>HUID</id>
@@ -46688,11 +47153,11 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
@@ -46708,7 +47173,7 @@
 	</attribute>
 	<attribute>
 		<id>MRU_ID</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -46716,7 +47181,7 @@
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -57364,7 +57829,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default></default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -57380,11 +57845,11 @@
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
-		<default></default>
+		<default>unknown</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_POS</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>HUID</id>
@@ -57403,11 +57868,11 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>IO_CONFIG_SELECT</id>
@@ -57423,7 +57888,7 @@
 	</attribute>
 	<attribute>
 		<id>MRU_ID</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -57431,7 +57896,7 @@
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -57448,7 +57913,7 @@
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
-		<default></default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -127592,11 +128057,11 @@
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
-		<default></default>
+		<default>unknown</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_POS</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>HUID</id>
@@ -127615,11 +128080,11 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
@@ -127635,7 +128100,7 @@
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -127684,11 +128149,11 @@
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
-		<default></default>
+		<default>unknown</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_POS</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>HUID</id>
@@ -127707,11 +128172,11 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
@@ -127727,7 +128192,7 @@
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -127767,7 +128232,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default></default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -127787,11 +128252,11 @@
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
-		<default></default>
+		<default>unknown</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_POS</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>HUID</id>
@@ -127810,11 +128275,11 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
@@ -127826,7 +128291,7 @@
 	</attribute>
 	<attribute>
 		<id>MRU_ID</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -127834,7 +128299,7 @@
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -127851,7 +128316,7 @@
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
-		<default></default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -127875,15 +128340,15 @@
 	</attribute>
 	<attribute>
 		<id>ALTFSI_MASTER_CHIP</id>
-		<default></default>
+		<default>physical:sys-0</default>
 	</attribute>
 	<attribute>
 		<id>ALTFSI_MASTER_PORT</id>
-		<default></default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_ID</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -127895,27 +128360,27 @@
 	</attribute>
 	<attribute>
 		<id>EC</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
-		<default></default>
+		<default>unknown</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_POS</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>FRU_ID</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FSI_MASTER_CHIP</id>
-		<default></default>
+		<default>physical:sys-0</default>
 	</attribute>
 	<attribute>
 		<id>FSI_MASTER_PORT</id>
-		<default></default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>FSI_MASTER_TYPE</id>
@@ -127930,7 +128395,7 @@
 	</attribute>
 	<attribute>
 		<id>FSI_SLAVE_CASCADE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>HUID</id>
@@ -127949,11 +128414,11 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
@@ -127965,7 +128430,7 @@
 	</attribute>
 	<attribute>
 		<id>MRU_ID</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -127973,7 +128438,7 @@
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -128018,15 +128483,15 @@
 	</attribute>
 	<attribute>
 		<id>ALTFSI_MASTER_CHIP</id>
-		<default></default>
+		<default>physical:sys-0</default>
 	</attribute>
 	<attribute>
 		<id>ALTFSI_MASTER_PORT</id>
-		<default></default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_ID</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -128038,27 +128503,27 @@
 	</attribute>
 	<attribute>
 		<id>EC</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
-		<default></default>
+		<default>unknown</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_POS</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>FRU_ID</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FSI_MASTER_CHIP</id>
-		<default></default>
+		<default>physical:sys-0</default>
 	</attribute>
 	<attribute>
 		<id>FSI_MASTER_PORT</id>
-		<default></default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>FSI_MASTER_TYPE</id>
@@ -128073,7 +128538,7 @@
 	</attribute>
 	<attribute>
 		<id>FSI_SLAVE_CASCADE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>HUID</id>
@@ -128092,11 +128557,11 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
@@ -128108,7 +128573,7 @@
 	</attribute>
 	<attribute>
 		<id>MRU_ID</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -128116,7 +128581,7 @@
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -135356,6 +135821,650 @@
 	<attribute>
 		<id>TYPE</id>
 		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>pcieslot-1</id>
+	<type>slot-pcieslot-generic</type>
+	<is_root>false</is_root>
+	<instance_name>pcieslot</instance_name>
+	<position>1</position>
+	<child_id>pciecard-0</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value></value></field>
+				<field><id>supportsXscom</id><value></value></field>
+				<field><id>supportsInbandScom</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>pcieslot-2</id>
+	<type>slot-pcieslot-generic</type>
+	<is_root>false</is_root>
+	<instance_name>pcieslot</instance_name>
+	<position>2</position>
+	<child_id>pciecard-0</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value></value></field>
+				<field><id>supportsXscom</id><value></value></field>
+				<field><id>supportsInbandScom</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>pcieslot-3</id>
+	<type>slot-pcieslot-generic</type>
+	<is_root>false</is_root>
+	<instance_name>pcieslot</instance_name>
+	<position>3</position>
+	<child_id>pciecard-0</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>3</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value></value></field>
+				<field><id>supportsXscom</id><value></value></field>
+				<field><id>supportsInbandScom</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>pcieslot-4</id>
+	<type>slot-pcieslot-generic</type>
+	<is_root>false</is_root>
+	<instance_name>pcieslot</instance_name>
+	<position>4</position>
+	<child_id>pciecard-0</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>4</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value></value></field>
+				<field><id>supportsXscom</id><value></value></field>
+				<field><id>supportsInbandScom</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>pcieslot-5</id>
+	<type>slot-pcieslot-generic</type>
+	<is_root>false</is_root>
+	<instance_name>pcieslot</instance_name>
+	<position>5</position>
+	<child_id>pciecard-0</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>5</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value></value></field>
+				<field><id>supportsXscom</id><value></value></field>
+				<field><id>supportsInbandScom</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>pcieslot-6</id>
+	<type>slot-pcieslot-generic</type>
+	<is_root>false</is_root>
+	<instance_name>pcieslot</instance_name>
+	<position>6</position>
+	<child_id>pciecard-0</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>6</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value></value></field>
+				<field><id>supportsXscom</id><value></value></field>
+				<field><id>supportsInbandScom</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>pcieslot-7</id>
+	<type>slot-pcieslot-generic</type>
+	<is_root>false</is_root>
+	<instance_name>pcieslot</instance_name>
+	<position>7</position>
+	<child_id>pciecard-0</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>7</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value></value></field>
+				<field><id>supportsXscom</id><value></value></field>
+				<field><id>supportsInbandScom</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
