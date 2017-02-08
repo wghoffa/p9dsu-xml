@@ -2379,7 +2379,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/P9DSU-0/planar_vpd-0</id>
+	<id>/sys/node-0/P9DSU-0/planar_vpd-0</id>
 	<property>
 	<id>I2C_ADDRESS</id>
 	<value></value>
@@ -2390,7 +2390,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/P9DSU-0/planar_vpd-0/i2c-slave</id>
+	<id>/sys/node-0/P9DSU-0/planar_vpd-0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2409,7 +2409,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/P9DSU-0/planar_vpd-0/vpd_assoc_parent</id>
+	<id>/sys/node-0/P9DSU-0/planar_vpd-0/vpd_assoc_parent</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
 	<value></value>
