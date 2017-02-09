@@ -4003,7 +4003,7 @@
 </appliedErratas>
 <targetInstances>
 <targetInstance>
-	<id>sys</id>
+	<id>sys-0</id>
 	<type>sys-sys-power9</type>
 	<is_root>true</is_root>
 	<instance_name>sys</instance_name>
