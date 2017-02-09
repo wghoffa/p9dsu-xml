@@ -40377,11 +40377,11 @@
 	</attribute>
 	<attribute>
 		<id>FSI_LINK</id>
-		<default>0x00</default>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>FSI_PORT</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>HUID</id>
