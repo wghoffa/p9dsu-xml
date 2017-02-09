@@ -136522,7 +136522,7 @@
 	</attribute>
 	<attribute>
 		<id>ALTFSI_MASTER_CHIP</id>
-		<default>physical:sys</default>
+		<default>physical:sys-0</default>
 	</attribute>
 	<attribute>
 		<id>ALTFSI_MASTER_PORT</id>
@@ -136562,7 +136562,7 @@
 	</attribute>
 	<attribute>
 		<id>FSI_MASTER_CHIP</id>
-		<default>physical:sys</default>
+		<default>physical:sys-0</default>
 	</attribute>
 	<attribute>
 		<id>FSI_MASTER_PORT</id>
