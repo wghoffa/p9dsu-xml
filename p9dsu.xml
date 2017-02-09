@@ -2297,35 +2297,35 @@
 </enumerationTypes>
 <globalSettings>
 <globalSetting>
-	<id>/sys</id>
+	<id>/sys-0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0</id>
+	<id>/sys-0/node-0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0</id>
+	<id>/sys-0/node-0/P9DSU-0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/PM8069-2</id>
+	<id>/sys-0/node-0/P9DSU-0/PM8069-2</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/PM8069-2/pciep</id>
+	<id>/sys-0/node-0/P9DSU-0/PM8069-2/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2336,14 +2336,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/USB-1</id>
+	<id>/sys-0/node-0/P9DSU-0/USB-1</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/USB-1/pciep</id>
+	<id>/sys-0/node-0/P9DSU-0/USB-1/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2354,14 +2354,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/bmc-0</id>
+	<id>/sys-0/node-0/P9DSU-0/bmc-0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/bmc-0/chip-bmc-ast2500.pin_L17_pcie</id>
+	<id>/sys-0/node-0/P9DSU-0/bmc-0/chip-bmc-ast2500.pin_L17_pcie</id>
 	<property>
 	<id>IO_CONFIG_SELECT</id>
 	<value></value>
@@ -2372,14 +2372,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/pcieslot-0</id>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/planar_vpd-0</id>
+	<id>/sys-0/node-0/P9DSU-0/planar_vpd-0</id>
 	<property>
 	<id>I2C_ADDRESS</id>
 	<value></value>
@@ -2390,7 +2390,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/planar_vpd-0/i2c-slave</id>
+	<id>/sys-0/node-0/P9DSU-0/planar_vpd-0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2409,7 +2409,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/planar_vpd-0/vpd_assoc_parent</id>
+	<id>/sys-0/node-0/P9DSU-0/planar_vpd-0/vpd_assoc_parent</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
 	<value></value>
@@ -2424,14 +2424,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/pcieslot-0/pciecard-0</id>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-0/pciecard-0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/pcieslot-0/pciecard-0/pciep</id>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-0/pciecard-0/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2442,7 +2442,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/pcieslot-1/pciecard-0/pciep</id>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-1/pciecard-0/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2453,7 +2453,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/pcieslot-2/pciecard-0/pciep</id>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-2/pciecard-0/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2464,7 +2464,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/pcieslot-3/pciecard-0/pciep</id>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-3/pciecard-0/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2475,7 +2475,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/pcieslot-4/pciecard-0/pciep</id>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-4/pciecard-0/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2486,7 +2486,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/pcieslot-5/pciecard-0/pciep</id>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-5/pciecard-0/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2497,14 +2497,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/pcieslot-6</id>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-6</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/pcieslot-6/pciecard-0/pciep</id>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-6/pciecard-0/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2515,7 +2515,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/pcieslot-7/pciecard-0/pciep</id>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-7/pciecard-0/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2526,7 +2526,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec0/pec0_x16_config/phb0_x16/phb0_x16_pci</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec0/pec0_x16_config/phb0_x16/phb0_x16_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2537,7 +2537,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb1_x8/phb1_x8_pci</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb1_x8/phb1_x8_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2548,7 +2548,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb2_x8/phb2_x8_pci</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb2_x8/phb2_x8_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2559,7 +2559,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/pec0/pec0_x16_config/phb0_x16/phb0_x16_pci</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/pec0/pec0_x16_config/phb0_x16/phb0_x16_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2570,7 +2570,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb1_x8/phb1_x8_pci</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb1_x8/phb1_x8_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2581,7 +2581,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb2_x8/phb2_x8_pci</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb2_x8/phb2_x8_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2592,7 +2592,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/pec2/pec2_x8_x8_config/phb3_x8/phb3_x8_pci</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/pec2/pec2_x8_x8_config/phb3_x8/phb3_x8_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2603,7 +2603,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/pec2/pec2_x8_x8_config/phb4_x8/phb4_x8_pci</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/pec2/pec2_x8_x8_config/phb4_x8/phb4_x8_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2614,7 +2614,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/bmc-0/chip-bmc-ast2500.pin_G21_espi_lpc_gpioac0ac7/chip-bmc-ast2500.pingroup_lpc/chip-bmc-ast2500.LPC</id>
+	<id>/sys-0/node-0/P9DSU-0/bmc-0/chip-bmc-ast2500.pin_G21_espi_lpc_gpioac0ac7/chip-bmc-ast2500.pingroup_lpc/chip-bmc-ast2500.LPC</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2625,7 +2625,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/bmc-0/chip-bmc-ast2500.pin_L17_pcie/chip-bmc-ast2500.pingroup_pcie/chip-bmc-ast2500.pcie</id>
+	<id>/sys-0/node-0/P9DSU-0/bmc-0/chip-bmc-ast2500.pin_L17_pcie/chip-bmc-ast2500.pingroup_pcie/chip-bmc-ast2500.pcie</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2636,7 +2636,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-0</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-0</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
 	<value></value>
@@ -2647,7 +2647,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-0/dimm-0</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-0/dimm-0</id>
 	<property>
 	<id>FRU_NAME</id>
 	<value></value>
@@ -2658,7 +2658,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-0/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-0/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2669,252 +2669,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-0/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>I2C_ADDRESS</id>
-	<value>0x36</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-0/dimm-0/spd/i2c-slave</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>I2C_ADDRESS</id>
-	<value>0xA6</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-1/dimm-0/ddr4</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-1/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>I2C_ADDRESS</id>
-	<value>0x38</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-1/dimm-0/spd/i2c-slave</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>I2C_ADDRESS</id>
-	<value>0xA8</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-10/dimm-0/ddr4</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-10/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>I2C_ADDRESS</id>
-	<value>0x34</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-10/dimm-0/spd/i2c-slave</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>I2C_ADDRESS</id>
-	<value>0xA4</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-11/dimm-0/ddr4</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-11/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>I2C_ADDRESS</id>
-	<value>0x3A</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-11/dimm-0/spd/i2c-slave</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>I2C_ADDRESS</id>
-	<value>0xAA</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-12/dimm-0/ddr4</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-12/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>I2C_ADDRESS</id>
-	<value>0x34</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-12/dimm-0/spd/i2c-slave</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>I2C_ADDRESS</id>
-	<value>0xA4</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-13/dimm-0/ddr4</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-13/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-0/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2933,7 +2688,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-13/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-0/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2952,7 +2707,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-14/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-1/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2963,7 +2718,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-14/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-1/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2982,7 +2737,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-14/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-1/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3001,7 +2756,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-15/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-10/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3012,56 +2767,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-15/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>I2C_ADDRESS</id>
-	<value>0x3A</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-15/dimm-0/spd/i2c-slave</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>I2C_ADDRESS</id>
-	<value>0xAA</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-2/dimm-0/ddr4</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-2/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-10/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3080,7 +2786,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-2/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-10/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3099,7 +2805,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-3/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-11/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3110,7 +2816,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-3/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-11/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3129,7 +2835,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-3/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-11/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3148,7 +2854,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-4/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-12/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3159,7 +2865,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-4/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-12/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3178,7 +2884,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-4/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-12/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3197,7 +2903,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-5/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-13/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3208,7 +2914,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-5/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-13/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3227,7 +2933,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-5/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-13/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3246,7 +2952,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-6/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-14/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3257,7 +2963,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-6/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-14/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3276,7 +2982,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-6/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-14/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3295,7 +3001,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-7/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-15/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3306,7 +3012,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-7/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-15/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3325,7 +3031,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-7/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-15/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3344,7 +3050,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-8/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-2/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3355,7 +3061,154 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-8/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-2/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x34</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-2/dimm-0/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA4</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-3/dimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-3/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x3A</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-3/dimm-0/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xAA</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-4/dimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-4/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x34</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-4/dimm-0/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA4</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-5/dimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-5/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3374,7 +3227,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-8/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-5/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3393,7 +3246,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-9/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-6/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3404,7 +3257,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-9/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-6/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3423,7 +3276,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/dimmconn-9/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-6/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3442,28 +3295,175 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/pcie-0</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-7/dimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/pcieslot-0</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-7/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x3A</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-7/dimm-0/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xAA</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-8/dimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/pcieslot-0/pciecard-0</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-8/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x36</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-8/dimm-0/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA6</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-9/dimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0</id>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-9/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x38</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-9/dimm-0/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA8</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/pcie-0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/pcieslot-0/pciecard-0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
 	<value></value>
@@ -3474,7 +3474,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/fsi-cm-0</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/fsi-cm-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3489,7 +3489,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/fsim-0</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/fsim-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3504,7 +3504,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/fsim-1</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/fsim-1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3519,7 +3519,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/i2c-master-dimm0123</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/i2c-master-dimm0123</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3530,7 +3530,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/i2c-master-dimm4567</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/i2c-master-dimm4567</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3541,7 +3541,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/lpc-master</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/lpc-master</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3552,14 +3552,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist0</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist0/mcs0/mca0/ddr_ch0:cs0</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist0/mcs0/mca0/ddr_ch0:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3570,7 +3570,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist0/mcs0/mca0/ddr_ch0:cs1</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist0/mcs0/mca0/ddr_ch0:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3581,7 +3581,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist0/mcs0/mca1/ddr_ch1:cs0</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist0/mcs0/mca1/ddr_ch1:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3592,7 +3592,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist0/mcs0/mca1/ddr_ch1:cs1</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist0/mcs0/mca1/ddr_ch1:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3603,7 +3603,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs0</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3614,7 +3614,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs1</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3625,7 +3625,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs2/mca5/ddr_ch5:cs0</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs2/mca5/ddr_ch5:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3636,7 +3636,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs2/mca5/ddr_ch5:cs1</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs2/mca5/ddr_ch5:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3647,7 +3647,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs3/mca6/ddr_ch6:cs0</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs3/mca6/ddr_ch6:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3658,7 +3658,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs3/mca6/ddr_ch6:cs1</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs3/mca6/ddr_ch6:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3669,7 +3669,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs3/mca7/ddr_ch7:cs0</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs3/mca7/ddr_ch7:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3680,7 +3680,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs3/mca7/ddr_ch7:cs1</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs3/mca7/ddr_ch7:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3691,14 +3691,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec2</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec2</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec2/pec2_x8_x4_x4_config</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec2/pec2_x8_x4_x4_config</id>
 	<property>
 	<id>IO_CONFIG_SELECT</id>
 	<value></value>
@@ -3709,14 +3709,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec2/pec2_x8_x4_x4_config/phb3_x8</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec2/pec2_x8_x4_x4_config/phb3_x8</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec2/pec2_x8_x4_x4_config/phb3_x8/phb3_x8_pci</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec2/pec2_x8_x4_x4_config/phb3_x8/phb3_x8_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3727,7 +3727,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec2/pec2_x8_x4_x4_config/phb4_x4/phb4_x4_pci</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec2/pec2_x8_x4_x4_config/phb4_x4/phb4_x4_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3738,7 +3738,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec2/pec2_x8_x4_x4_config/phb5_x4/phb5_x4_pci</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/pec2/pec2_x8_x4_x4_config/phb5_x4/phb5_x4_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3749,7 +3749,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/xbus1</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/xbus1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3760,7 +3760,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/xbus2</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s/xbus2</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3771,7 +3771,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
 	<value></value>
@@ -3782,7 +3782,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/fsi-slave-0</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/fsi-slave-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3793,7 +3793,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/i2c-master-dimm0123</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/i2c-master-dimm0123</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3804,7 +3804,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/i2c-master-dimm4567</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/i2c-master-dimm4567</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3815,7 +3815,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist0/mcs0/mca0/ddr_ch0:cs0</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist0/mcs0/mca0/ddr_ch0:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3826,7 +3826,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist0/mcs0/mca0/ddr_ch0:cs1</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist0/mcs0/mca0/ddr_ch0:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3837,7 +3837,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist0/mcs0/mca1/ddr_ch1:cs0</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist0/mcs0/mca1/ddr_ch1:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3848,7 +3848,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist0/mcs0/mca1/ddr_ch1:cs1</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist0/mcs0/mca1/ddr_ch1:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3859,7 +3859,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs0</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3870,7 +3870,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs1</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3881,7 +3881,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca5/ddr_ch5:cs0</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca5/ddr_ch5:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3892,7 +3892,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca5/ddr_ch5:cs1</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca5/ddr_ch5:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3903,7 +3903,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs3/mca6/ddr_ch6:cs0</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs3/mca6/ddr_ch6:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3914,7 +3914,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs3/mca6/ddr_ch6:cs1</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs3/mca6/ddr_ch6:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3925,7 +3925,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs3/mca7/ddr_ch7:cs0</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs3/mca7/ddr_ch7:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3936,7 +3936,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs3/mca7/ddr_ch7:cs1</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs3/mca7/ddr_ch7:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3947,7 +3947,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/xbus1</id>
+	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s/xbus1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3958,7 +3958,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/P9DSU-0/vpd_assoc_child</id>
+	<id>/sys-0/node-0/P9DSU-0/vpd_assoc_child</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
 	<value></value>
