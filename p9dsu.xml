@@ -9906,7 +9906,7 @@
 	</attribute>
 	<attribute>
 		<id>BOOT_FREQ_MULT</id>
-		<default>150</default>
+		<default>120</default>
 	</attribute>
 	<attribute>
 		<id>BRANCH_PIBMEM_ADDR</id>
