@@ -11336,15 +11336,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_VCS_UOHM</id>
-		<default></default>
+		<default>0x578</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_VDD_UOHM</id>
-		<default></default>
+		<default>0x96</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_VDN_UOHM</id>
-		<default></default>
+		<default>0xE8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_VCS_UOHM</id>
@@ -11352,7 +11352,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_VDD_UOHM</id>
-		<default></default>
+		<default>0xFA</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_VDN_UOHM</id>
