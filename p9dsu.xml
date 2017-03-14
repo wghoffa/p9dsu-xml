@@ -7967,7 +7967,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_FAMILY</id>
-		<default>smc,openpower</default>
+		<default>supermicro,p9dsu</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_IPL_PHASE</id>
@@ -7999,7 +7999,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_TYPE</id>
-		<default>ibm,miscopenpower</default>
+		<default>supermicro,p9dsu</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_ENABLED</id>
