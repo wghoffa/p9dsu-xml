@@ -2308,7 +2308,7 @@
 	<id>/sys-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>51</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2347,7 +2347,7 @@
 	<id>/sys-0/node-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>3</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2492,11 +2492,11 @@
 	<id>/sys-0/node-0/P9DSU-0/dimmconn-0/dimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>12</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
-	<value></value>
+	<value>P1M1-DIMMA</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2588,6 +2588,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-1/dimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>13</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>P1M1-DIMMB</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/P9DSU-0/dimmconn-1/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
@@ -2647,6 +2662,21 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-10/dimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>22</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>P2M1-DIMMC</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -2714,6 +2744,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-11/dimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>23</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>P2M1-DIMMD</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/P9DSU-0/dimmconn-11/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
@@ -2777,6 +2822,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-12/dimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>24</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>P2M2-DIMMA</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/P9DSU-0/dimmconn-12/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
@@ -2836,6 +2896,21 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-13/dimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>25</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>P2M2-DIMMB</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -2910,6 +2985,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-14/dimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>26</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>P2M2-DIMMC</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/P9DSU-0/dimmconn-14/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
@@ -2969,6 +3059,21 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-15/dimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>27</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>P2M2-DIMMD</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -3043,6 +3148,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-2/dimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>14</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>P1M1-DIMMC</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/P9DSU-0/dimmconn-2/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
@@ -3113,6 +3233,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-3/dimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>15</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>P1M1-DIMMD</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/P9DSU-0/dimmconn-3/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
@@ -3172,6 +3307,21 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-4/dimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>16</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>P1M2-DIMMA</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -3239,6 +3389,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-5/dimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>17</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>P1M2-DIMMB</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/P9DSU-0/dimmconn-5/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
@@ -3298,6 +3463,21 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-6/dimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>18</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>P1M2-DIMMC</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -3365,6 +3545,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-7/dimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>19</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>P1M2-DIMMD</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/P9DSU-0/dimmconn-7/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
@@ -3424,6 +3619,21 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-8/dimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>20</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>P2M1-DIMMA</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -3491,6 +3701,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/P9DSU-0/dimmconn-9/dimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>21</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>P2M1-DIMMB</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/P9DSU-0/dimmconn-9/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
@@ -3509,7 +3734,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x36</value>
+	<value>0x38</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3740,7 +3965,7 @@
 	<id>/sys-0/node-0/P9DSU-0/proc_socket-0/module-0/p9_proc_s</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>1</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5312,7 +5537,7 @@
 	<id>/sys-0/node-0/P9DSU-0/proc_socket-1/module-0/p9_proc_s</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>2</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -6288,7 +6513,7 @@
 	</attribute>
 	<attribute>
 		<id>BMC_FRU_ID</id>
-		<default>0</default>
+		<default>47</default>
 	</attribute>
 	<attribute>
 		<id>BOOT_FLAGS</id>
@@ -44298,7 +44523,7 @@
 	</attribute>
 	<attribute>
 		<id>FRU_ID</id>
-		<default>0</default>
+		<default>4</default>
 	</attribute>
 	<attribute>
 		<id>FRU_NAME</id>
