@@ -6672,7 +6672,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_PB_MHZ</id>
-		<default>2000</default>
+		<default>1600</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_PCIE_MHZ</id>
@@ -7259,7 +7259,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_SUPPORTED_FREQ</id>
-		<default>0x74A,0x855,0,0</default>
+		<default>0x74A,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_TEMP_REFRESH_RANGE</id>
