@@ -6489,7 +6489,7 @@
 	</attribute>
 	<attribute>
 		<id>ASYNC_NEST_FREQ_MHZ</id>
-		<default>2000</default>
+		<default>1600</default>
 	</attribute>
 	<attribute>
 		<id>ATTN_CHK_ALL_PROCS</id>
