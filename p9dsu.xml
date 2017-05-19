@@ -10310,7 +10310,7 @@
 				<field><id>maxMemorySizeKB</id><value>0x100</value></field>
 				<field><id>chipCount</id><value>0x04</value></field>
 				<field><id>writePageSize</id><value>0x80</value></field>
-				<field><id>writeCycleTime</id><value>0x05</value></field>
+				<field><id>writeCycleTime</id><value>0x0A</value></field>
 		</default>
 	</attribute>
 	<attribute>
@@ -10324,7 +10324,7 @@
 				<field><id>maxMemorySizeKB</id><value>0x80</value></field>
 				<field><id>chipCount</id><value>0x02</value></field>
 				<field><id>writePageSize</id><value>0x80</value></field>
-				<field><id>writeCycleTime</id><value>0x05</value></field>
+				<field><id>writeCycleTime</id><value>0x0A</value></field>
 		</default>
 	</attribute>
 	<attribute>
@@ -10338,7 +10338,7 @@
 				<field><id>maxMemorySizeKB</id><value>0x80</value></field>
 				<field><id>chipCount</id><value>0x02</value></field>
 				<field><id>writePageSize</id><value>0x80</value></field>
-				<field><id>writeCycleTime</id><value>0x05</value></field>
+				<field><id>writeCycleTime</id><value>0x0A</value></field>
 		</default>
 	</attribute>
 	<attribute>
